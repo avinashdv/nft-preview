@@ -1,0 +1,202 @@
+html,
+body {
+  background-color: hsl(217deg, 54%, 11%);
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Outfit", sans-serif;
+  padding: 0 30px;
+  box-sizing: border-box;
+}
+@media only screen and (min-width: 375px) {
+  html,
+body {
+    padding: 0;
+  }
+}
+
+h2,
+p {
+  margin: 0;
+}
+
+.main {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.backShadow__one {
+  display: none;
+}
+@media only screen and (min-width: 426px) {
+  .backShadow__one {
+    display: block;
+    width: 402px;
+    height: 650px;
+    background-color: hsla(217deg, 54%, 10%, 0.2);
+    margin-bottom: -20px;
+    position: absolute;
+  }
+}
+
+.backShadow__two {
+  display: none;
+}
+@media only screen and (min-width: 426px) {
+  .backShadow__two {
+    display: block;
+    width: 424px;
+    height: 631px;
+    background-color: hsla(217deg, 54%, 10%, 0.3);
+    margin-bottom: -20px;
+    position: absolute;
+  }
+}
+
+.backShadow__three {
+  display: none;
+}
+@media only screen and (min-width: 426px) {
+  .backShadow__three {
+    display: block;
+    width: 379px;
+    height: 678px;
+    background-color: hsla(217deg, 54%, 10%, 0.2);
+    margin-bottom: -20px;
+    position: absolute;
+  }
+}
+
+.foreShadow__one {
+  display: none;
+}
+@media only screen and (min-width: 426px) {
+  .foreShadow__one {
+    display: block;
+    width: 340px;
+    height: 576px;
+    background-color: hsla(217deg, 54%, 10%, 0.4);
+    margin-bottom: -46px;
+    position: absolute;
+  }
+}
+
+.foreShadow__two {
+  display: none;
+}
+@media only screen and (min-width: 426px) {
+  .foreShadow__two {
+    display: block;
+    width: 355px;
+    height: 543px;
+    background-color: hsla(217deg, 54%, 10%, 0.4);
+    margin-bottom: -55px;
+    position: absolute;
+  }
+}
+
+.nftCard {
+  width: 250px;
+  height: auto;
+  background-color: hsl(216deg, 50%, 16%);
+  border-radius: 14px;
+  padding: 18px;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+}
+@media only screen and (min-width: 426px) {
+  .nftCard {
+    width: 280px;
+    padding: 22px;
+  }
+}
+.nftCard__img {
+  background-image: url(./assets/images/image-equilibrium.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: auto;
+  height: 300px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+.nftCard__img:hover {
+  cursor: pointer;
+  background-color: hsla(178deg, 100%, 50%, 0.7);
+  background-image: url(./assets/images/image-equilibrium.jpg), url(./assets/images/icon-view.svg);
+  background-size: auto 300px, 50px 50px;
+  background-blend-mode: screen;
+}
+.nftCard__title {
+  margin-bottom: 20px;
+  color: hsl(0deg, 0%, 100%);
+  font-size: 1.3em;
+  font-weight: 600;
+}
+.nftCard__title:hover {
+  cursor: pointer;
+  color: hsl(178deg, 100%, 50%);
+}
+.nftCard__description {
+  margin-bottom: 20px;
+  color: hsl(215deg, 51%, 70%);
+  font-size: 0.98em;
+  font-weight: 300;
+}
+.nftCard__valueTime {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  font-size: 0.9em;
+}
+.nftCard__value {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 84px;
+  color: hsl(178deg, 100%, 50%);
+  font-weight: 600;
+}
+.nftCard__time {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 88px;
+  color: hsl(215deg, 51%, 70%);
+}
+.nftCard__horizontalRule {
+  width: 100%;
+  border: 0.1px solid hsl(215deg, 32%, 27%);
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+.nftCard__author {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+.nftCard__author__avatar {
+  width: 28px;
+  height: auto;
+  margin-right: 14px;
+  border-radius: 50%;
+  border: 1px solid hsl(0deg, 0%, 100%);
+}
+.nftCard__author__about {
+  color: hsl(215deg, 51%, 70%);
+  font-size: 0.9em;
+  font-weight: 300;
+}
+.nftCard__author__name {
+  color: hsl(0deg, 0%, 100%);
+}
+.nftCard__author__name:hover {
+  cursor: pointer;
+  color: hsl(178deg, 100%, 50%);
+}/*# sourceMappingURL=index.css.map */
